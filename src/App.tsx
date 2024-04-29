@@ -6,6 +6,7 @@ import RootLayout from './_root/RootLayout';
 import '/src/globals.css';
 import { Routes, Route } from 'react-router-dom';
 
+
 const App = () => {
   return (
     <main className='flex h-screem'>
