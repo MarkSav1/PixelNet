@@ -1,3 +1,4 @@
+import { Toaster } from './components/ui/toaster';
 import AuthLayout from './_auth/AuthLayout';
 import SigninForms from './_auth/forms/SigninForms';
 import SignupForm from './_auth/forms/SignupForm';
@@ -22,6 +23,7 @@ const App = () => {
         <Route index element={<Home />} />
         </Route>
       </Routes>
+      <Toaster />
     </main>
   )
 }
